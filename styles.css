@@ -1,84 +1,87 @@
-@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap");
 
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Space Mono', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Space Mono", sans-serif;
 }
 body {
-    background-color: #e9ecef;
+  background-color: #e9ecef;
 }
 .container {
-    width: 310px;
-    /* height:630px; */
-    margin: 100px auto;
-    background-color: #222f44 ;
-    color : #e7e7e8;
-    border-radius: 3px;
-    overflow: hidden;
-    padding: 10px;
+  width: 310px;
+  max-height: 400px;
+  margin: auto;
+  background-color: #222f44;
+  color: #e7e7e8;
+  border-radius: 3px;
+  overflow: hidden;
+  padding: 10px;
+  overflow-y: scroll;
+}
+.container::-webkit-scrollbar {
+  display: none;
 }
 .searchbar {
-    margin-top: 10px;;
-    width: 100%;
-    height:30px;
-    display: flex;
-    justify-content: center;
+  margin-top: 10px;
+  width: 100%;
+  height: 30px;
+  display: flex;
+  justify-content: center;
 }
 input {
-    width: 100%;
-    height: 100%;
-    padding: 10px;
-    outline: none;
-    border-radius: 3px;
-    border: none;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  outline: none;
+  border-radius: 3px;
+  border: none;
 }
 .heading {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 .heading h3 {
-    font-size: 30px;
-    font-weight: 500;
+  font-size: 30px;
+  font-weight: 500;
 }
 .heading p {
-    font-size: 16px;
+  font-size: 16px;
 }
 .heading button {
-    margin-top: 5px;
-    min-width: 80px;
-    border:none !important;
-    font-size: 16px;
-    padding: 0 5px;
-    color : #15c8d5 
+  margin-top: 5px;
+  min-width: 80px;
+  border: none !important;
+  font-size: 16px;
+  padding: 0 5px;
+  color: #15c8d5;
 }
 .main {
-    margin: 5px 0;
+  margin: 5px 0;
 }
 .definitions h2 {
-    font-size:16px;
-    font-weight: 400;
-    text-decoration: underline;
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: underline;
 }
 .definitions p {
-    font-size:14px;
+  font-size: 14px;
 }
 .sub-main {
-    margin: 5px 0;
+  margin: 5px 0;
 }
 .sub-main h2 {
-    font-size: 16px;
-    font-weight:400;
-    text-decoration: underline;
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: underline;
 }
 .sub-main a {
-    color : #15c8d5;
-    text-decoration:none;
+  color: #15c8d5;
+  text-decoration: none;
 }
 .sub-main a:hover {
-    color : #e91111
+  color: #e91111;
 }
 .heading p i:hover {
-    color : #15c8d5
+  color: #15c8d5;
 }
